@@ -1,0 +1,20 @@
+
+.table {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 460px;
+
+}
+
+.square {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.black {
+    background-color: black;
+}
