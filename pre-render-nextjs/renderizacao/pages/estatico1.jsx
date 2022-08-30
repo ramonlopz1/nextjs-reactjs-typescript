@@ -1,6 +1,7 @@
 // import { useEffect, useState } from "react"
 
 export default function Estatico1() {
+
     // const [num, setNum] = useState(0)
 
     // useEffect(() => {

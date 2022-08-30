@@ -1,4 +1,5 @@
 export async function getStaticProps() {
+    // esse console.log não aparecerá no browser, pois essa função executa apenas no servidor
     console.log('[Server] gerando props para o componente...')
     const resp = await fetch('http://localhost:3000/api/produtos')
     const produtos = await resp.json()
